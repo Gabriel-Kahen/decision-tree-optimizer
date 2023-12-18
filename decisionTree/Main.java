@@ -14,7 +14,8 @@ class Main {
     Node decisionTree = makeDecisionTree(data);
 
     //print(data);
-    //decisionTree.printTree();
+    decisionTree.printTree();
+    System.out.println("\n");
     play(fileName);
   }
 
