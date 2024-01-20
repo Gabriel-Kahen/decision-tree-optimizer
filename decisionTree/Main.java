@@ -7,8 +7,8 @@ import java.util.Scanner;
 class Main {
   public static void main(String[] args) {
     String fileName;
-    //fileName = "testData.csv";
-    fileName = "testData2.csv";
+    fileName = "testData.csv";
+    //fileName = "testData2.csv";
     
     String[][] data = readCSV(fileName);
     Node decisionTree = makeDecisionTree(data);
